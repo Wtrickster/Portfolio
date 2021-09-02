@@ -3,6 +3,9 @@ import { Col, Row, Container } from "../components/Grid";
 import Section from "../components/Section";
 import Linkedin from "../assets/Lin.png";
 import Github from "../assets/ghub.png";
+import Email from "../assets/email.png";
+import Phone from "../assets/phone.png";
+import Resume from "../assets/resume.png";
 
 
 function Contact() {
@@ -32,13 +35,21 @@ function Contact() {
                     </a>
                 </div>
                 <div className= "col-lg-4 text-center">
-                    <p>
-                    Email: JSPenland97@gmail.com
-                    <br /><br /><br />
-                    Phone: (773)266-9667
-                    <br /><br /><br />
-                    <a href="assets/Joseph's_Resume.pdf" download="Joseph's_Resume">Resume</a>
-                    </p>
+                    <a href="assets/Joseph's_Resume.pdf" download="Joseph's_Resume"><img src={Resume} alt="Resume"/>
+                    <p>Resume</p>
+                    </a>
+                </div>
+              </div>
+              <div className= "row">
+                <div className= "col-lg-6 text-center">
+                    <a href="https://github.com/Wtrickser/"><img src={Email} alt="Email"/>
+                    <p>Email: JSPenland97@gmail.com</p>
+                    </a>
+                </div>
+                <div className= "col-lg-6 text-center">
+                    <a href='https://megapng.com/images/bt/phone-symbol-14.png'><img src={Phone} alt="Phone"/>
+                    <p>Phone: (773)266-9667</p>
+                    </a>
                 </div>
               </div>
             </div>
