@@ -15,17 +15,14 @@ function About() {
               </div>
               <div className="col-sm-8">
                   <p> 
-                  Hello there, my name is Joseph. I’m Chicago born and raised. Since I was a child I always loved teaching myself new skills; such as woodworking, 3d printing, 3d    modeling, and computer hardware. As a result of this I prefer to make furniture myself to suit my needs rather than shop around for something; with this a yearly tradition I’ve fallen into is making a new desk. I’ve never been one to simply settle which may be why I often find myself in both leadership and supporting roles when it comes to work and friends.
+                  Web Developer and tech enthusiast. Trained at the University of Richmond Coding Bootcamp and earned a Certificate in Full Stack Web Development. Experienced with web development languages/libraries like JavaScript, Python, CSS, HTML, jQuery, Bootstrap, Node.js, Express, MySQL, MongoDB, Handlebar, Sequelize, and integrating APIs.
                   </p>
-                  <h1>
-                  Technical Skills:
-                  </h1>
-                  <li>
-                  Frontend: HTML5, CSS, JQuery, Javascript, Bootstrap, AJAX, and React 
-                  </li>
-                  <li>
-                  Backend: MySQL, MongoDB, Express, ReactJS, Node, Handlebars, Sequelize, and integrating APIs
-                  </li>   
+                  <p>
+                  Extremely organized, conflict resolution, self-motivated, strong verbal communication, and very personable. Always independently studying new methods and technologies.
+                  </p>
+                  <p>
+                  A team player that can also work independently, constantly educating myself on new skills, and always ready for the challenge. Excited to start a new career in technology.
+                  </p>
               </div>
             </Row>
           </Section>
