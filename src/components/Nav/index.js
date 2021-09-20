@@ -5,8 +5,8 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-md navbar-dark">
       <div className="navbar-nav">
-        <Link to="/" className={window.location.pathname === "/" ? "nav-item nav-link active" : "nav-item nav-link"}>
-          Home
+        <Link to="/About" className={window.location.pathname === "/About" ? "nav-item nav-link active" : "nav-item nav-link"}>
+          About
         </Link>
         <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-item nav-link active" : "nav-item nav-link"}>
           Portfolio

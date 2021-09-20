@@ -2,18 +2,10 @@
 import BirthdayBot from "./assets/BirthdayBot.png";
 import DailyPlanner from "./assets/DailyPlanner.png";
 import EmployeeDirectory from "./assets/EmployeeDirectory.png";
-import placeholder from "./assets/placeholder.png";
 import NoteTaker from "./assets/NoteTaker.png";
 
 // Export project data
 export const data = [
-  {
-    title: "Pestor Bot",
-    thumbnail: placeholder,
-    description: "Project three, work in progress",
-    app: "N/A",
-    repo: "https://github.com/Wtrickser/Pestor-Bot"
-  },
   {
     title: "Birthday Bot",
     thumbnail: BirthdayBot,

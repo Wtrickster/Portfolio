@@ -47,7 +47,7 @@ function Contact() {
                     </a>
                 </div>
                 <div className= "col-lg-6 text-center">
-                    <a href='https://megapng.com/images/bt/phone-symbol-14.png'><img src={Phone} alt="Phone"/>
+                    <a href="https://megapng.com/images/bt/phone-symbol-14.png"><img src={Phone} alt="Phone"/>
                     <p>Phone: (773)266-9667</p>
                     </a>
                 </div>

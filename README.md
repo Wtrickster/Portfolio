@@ -1,50 +1,71 @@
 # Portfolio
 
-A portfolio containing relevant information of Joseph Penland for seeking employment
+  ![GitHub](https://img.shields.io/badge/license-MIT-purple?style=plastic)
 
 
-# Table of Contents 
+# Description
 
-* [Installation](#installation)
-
-* [Usage](#usage)
-
-* [License](#license)
-
-* [Contributing](#contributing)
-
-* [Tests](#tests)
-
-* [Questions](#questions)
+  * A portfolio containing relevant information of Joseph Penland for seeking employment
 
 
-# Installation
+## Table of Contents
 
-Run Command Line "npm install"
-Run Command Line "npm start"
-
-
+  * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Contributions](#contributions)
+  * [Credits](#Credits)
+  * [Technologies](#Technologies)
+  * [Questions](#Questions)
+  
+  
+## **Installation**
+  
+  * To install the project follow these steps:
+     1. Clone the application from GitHub with:
+        * git clone https://github.com/Wtrickser/Portfolio
+     2. From the root folder, install the dependencies with:
+        * npm install
+     3. Run the app with:
+        * npm start
+  
+  
 # Usage
 
-<img src = Pic1.png width=500>
+  [GitHub](https://github.com/Wtrickser/Portfolio) [Heroku](https://burgerloggerdb.herokuapp.com/)
+
+  <img src = Pic1.png width=500>
+
+  * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+  * Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
+  * Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+  * Your app will store every burger in a database, whether devoured or not.
 
 
-
-# License
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Wtrickser/Portfolio)
-
-
-# Contributing
-
-​Contributors: Wtrickster
+## **Contributions**
+  
+  * Pull requests are welcome.
+  * For major changes, please open an issue first to discuss what you would like to change.
+  * Please make sure to update tests as appropriate.
 
 
-# Tests
+## **Credits**
+  
+  * Front End Developer: [Joseph](https://github.com/Wtrickser)
+  * Back End Developer: [Joseph](https://github.com/Wtrickser)
 
-Run Command Line "npm test"
 
-
-# Questions
-
-Questions or issues, contact wtrickster at JSPenland97@gmail.com.
+## **Technologies**
+  
+  * Json
+  * Html5
+  * Javascript
+  * CSS
+  * Node
+  * Bootstrap
+  * React
+  
+  
+## **Questions**
+  
+  * If you have questions or you want to share comments, we will be glad to hear from you. Please contact us at JSPenland97@gmail.com
