@@ -6,7 +6,7 @@ import Github from "../assets/ghub.png";
 import Email from "../assets/email.png";
 import Phone from "../assets/phone.png";
 import Resume from "../assets/resume.png";
-
+import MyResume from "../assets/Joseph Penland Resume.pdf"
 
 function Contact() {
   return (
@@ -14,45 +14,34 @@ function Contact() {
       <Row>
         <Col>
           <Section>
-            <div className= "container">
-              <div className="row">
-                <div className="col-md-12">
-                  <div className="page-header">
-                    <h1>Contact</h1>
-                  </div>
-                </div>
-              </div>
-              <br />
-              <div className= "row">
-                <div className= "col-lg-4 text-center">
-                  <a href="https://www.linkedin.com/in/joseph-penland-148889146/"><img src={Linkedin} alt="Linkedin"/>
-                    <p>Linkedin</p>
-                  </a>
-                </div>
-                <div className= "col-lg-4 text-center">
-                    <a href="https://github.com/Wtrickser/"><img src={Github} alt="Github"/>
-                    <p>Github</p>
-                    </a>
-                </div>
-                <div className= "col-lg-4 text-center">
-                    <a href="assets/Joseph's_Resume.pdf" download="Joseph's_Resume"><img src={Resume} alt="Resume"/>
-                    <p>Resume</p>
-                    </a>
-                </div>
-              </div>
               <div className= "row">
                 <div className= "col-lg-6 text-center">
-                    <a href="https://github.com/Wtrickser/"><img src={Email} alt="Email"/>
+                  <a href="https://www.linkedin.com/in/joseph-penland-148889146/"><img src={Linkedin} alt="Linkedin"/></a>
+                  <p>Linkedin</p>
+                </div>
+                <div className= "col-lg-6 text-center">
+                    <img src={Email} alt="Email"/>
                     <p>Email: JSPenland97@gmail.com</p>
-                    </a>
                 </div>
-                <div className= "col-lg-6 text-center">
-                    <a href="https://megapng.com/images/bt/phone-symbol-14.png"><img src={Phone} alt="Phone"/>
+                <div className= "row">
+                  <div className= "col-lg-6 text-center">
+                    <a href="https://github.com/Wtrickser/"><img src={Github}  alt="Github"/></a>
+                    <p>Github</p>
+                   </div>
+                   <div className= "col-lg-6 text-center">
+                    <img src={Phone} alt="Phone"/>
                     <p>Phone: (773)266-9667</p>
-                    </a>
+                </div>
                 </div>
               </div>
-            </div>
+              <div className= "row">
+              </div>
+              <div className= "row">
+              <div className= "col-lg-12 text-center">
+                    <a href={MyResume} download="Joseph Penland Resume.pdf"><img src={Resume} alt="Resume"/></a>
+                    <p>Resume</p>
+                </div>
+              </div>
           </Section>
         </Col>
       </Row>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import Project from '../components/Project';
+import Section from "../components/Section";
 
 // Import data (TEMP)
 import { data } from '../data';
@@ -9,6 +10,7 @@ import { data } from '../data';
 export default function Portfolio() {
   return (
     <Container>
+      <Section>
       <Row>
         <Col>
           {data.map((project, index) => {
@@ -26,6 +28,7 @@ export default function Portfolio() {
           })}
         </Col>
       </Row>
+      </Section>
     </Container>
   );
 }

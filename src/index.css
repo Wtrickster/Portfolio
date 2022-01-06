@@ -1,48 +1,25 @@
 body{
-  color:#DDDDDD;
-  background-image: linear-gradient(#182525, #041f1e);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  color: white;
+  background-color: hsl(189, 6%, 23%);
 }
-.navbar-dark .navbar-brand{
-  color:#008082; 
-  font-size: xx-large;
+header{
+  padding: 10px;
+  background-color: hsl(283, 47%, 18%);
 }
-.navbar-dark .navbar-nav .nav-link.active{
-color:#008082;
-}
-.container{
-  border-color:#2F3B44 ;
-  border-width: 4px;
+section{
+  margin: 10px;
+  border-color:hsl(283, 47%, 18%);
+  border-width: 5px;
+  padding: 25px;
   border-style: inset;
-  padding: 4px;
+  border-radius: 25px;
 }
-.page-header{
-  background-color: #008082;
+.round{
   text-align: center;
-  border-style: inset;
-  border-width: 4px;
-  border-color:#2F3B44;
+  border-radius: 175px;
+  padding: 20px;
 }
 img{
   max-height:100%;
-  max-width:100%;
-}
-.portfolio{
-  margin: 5px;
-  border-style: inset;
-  border-width: 4px;
-  border-color: #2F3B44;
-}
-.self{
-  border-style: inset;
-  border-width: 4px;
-  border-color: #008082
-}
-a {
-  color: #8a9bca;
-}
-a:hover {
-  color:  #DDDDDD;
+  max-width: 100%;
 }

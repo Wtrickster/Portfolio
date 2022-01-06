@@ -1,22 +1,42 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import styled from "styled-components"
+
+const NavUnlisted = styled.ul`
+
+  display: flex;
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    list-style: none;
+  }
+
+  .current {
+    li {
+      color: black;
+    }
+  }
+`;
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark">
-      <div className="navbar-nav">
-        <Link to="/About" className={window.location.pathname === "/About" ? "nav-item nav-link active" : "nav-item nav-link"}>
-          About
-        </Link>
-        <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-item nav-link active" : "nav-item nav-link"}>
-          Portfolio
-        </Link>
-        <Link to="/contact" className={window.location.pathname === "/contact" ? "nav-item nav-link active" : "nav-item nav-link"}>
-          Contact
-        </Link>
-      </div>
-    </nav>
+    <NavUnlisted>
+        <NavLink to="/About" className={window.location.pathname === "/About" ? "nav-item nav-link active" : "nav-item nav-link"}activeClassName="current" exact>
+          <li>Home</li>
+        </NavLink>
+        <NavLink to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-item nav-link active" : "nav-item nav-link"}activeClassName="current" exact>
+          <li>Portfolio</li>
+        </NavLink>
+        <NavLink to="/contact" className={window.location.pathname === "/contact" ? "nav-item nav-link active" : "nav-item nav-link"}activeClassName="current" exact>
+          <li>Contact</li>
+        </NavLink>
+    </NavUnlisted>
   );
 }
-
 export default Nav;
