@@ -11,11 +11,11 @@ function App() {
   return (
     <HashRouter>
       <Header/>
-      <Main>
-        <Route exact path={["/About" , "/React_Portfolio/"]} component={About}/>
-        <Route exact path="/portfolio" component={Portfolio}/>
-        <Route exact path="/contact" component={Contact}/>
-      </Main>
+        <Main>
+          <Route exact path={["/About" , "/React_Portfolio/"]} component={About}/>
+          <Route exact path="/portfolio" component={Portfolio}/>
+          <Route exact path="/contact" component={Contact}/>
+        </Main>
       <Footer/>
     </HashRouter>
   );

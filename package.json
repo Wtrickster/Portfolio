@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://github.com/About",
+  "homepage": "/https://github.com/About/",
   "dependencies": {
     "bootstrap": "^3.4.1",
     "react": "^17.0.2",

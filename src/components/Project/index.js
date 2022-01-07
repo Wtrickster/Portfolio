@@ -1,23 +1,26 @@
-// Import React
+// Imports
 import React from 'react';
+import { Col, Row } from "../Grid";
 
 // Create and export project card component
 export default function Project(props) {
   return (
-    <div className= "row">  
-      <div className= "col-md-6">
+    <Row>  
+      <Col>
         <img src={props.thumbnail} alt="" className="round" />
-      </div>
-      <div className= "col-md-6">
-          <h2>{props.title}</h2>
-        <br />
-          <p>{props.description}
-        <br /> 
-          <a href={props.app}>Deployed Page</a> 
-        <br />
-          <a href={props.repo}>Github</a>
-        </p>
-      </div>
-    </div>
+      </Col>
+      <Col>
+          <h3>{props.title}</h3>
+        <Row>
+          <p>{props.description}</p>
+        </Row>
+        <Row>
+          <li><a href={props.app}>Deployed Page</a></li>
+        </Row>
+        <Row>
+          <li><a href={props.repo}>Github</a></li>
+        </Row>
+      </Col>
+    </Row>
   );
 }

@@ -1,6 +1,7 @@
 body{
   color: white;
   background-color: hsl(189, 6%, 23%);
+  font-style: oblique;
 }
 header{
   padding: 10px;
@@ -22,4 +23,11 @@ section{
 img{
   max-height:100%;
   max-width: 100%;
+}
+h3{
+  border-bottom: 1px solid
+}
+.size{
+  width: 100px;
+  height: 100px;
 }

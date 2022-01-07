@@ -11,23 +11,23 @@ export default function Portfolio() {
   return (
     <Container>
       <Section>
-      <Row>
-        <Col>
-          {data.map((project, index) => {
-            return (
-              <Project
-                id={index}
-                key={index}
-                title={project.title}
-                thumbnail={project.thumbnail}
-                description={project.description}
-                app={project.app}
-                repo={project.repo}
-              />
-            )
-          })}
-        </Col>
-      </Row>
+        <Row>
+          <Col>
+            {data.map((project, index) => {
+              return (
+                <Project
+                  id={index}
+                  key={index}
+                  title={project.title}
+                  thumbnail={project.thumbnail}
+                  description={project.description}
+                  app={project.app}
+                  repo={project.repo}
+                />
+              )
+            })}
+          </Col>
+        </Row>
       </Section>
     </Container>
   );

@@ -34,7 +34,7 @@
 
   Repo: [GitHub](https://github.com/Wtrickser/Portfolio) Deployed: [Heroku](https://burgerloggerdb.herokuapp.com/)
 
-  <img src = Pic1.png width=500>
+  <img src = src/assets/Pic1.png width=500>
 
   * Navigate through the Home, About, Work and Contacts pages which are located at the top of the portfolio page
 
