@@ -1,5 +1,5 @@
 import React from "react";
-import {Row, Col, Container } from "../components/Grid";
+import {Col, Container } from "../components/Grid";
 import Section from "../components/Section";
 import Joseph from "../assets/Joseph.png"
 
@@ -7,7 +7,6 @@ function About() {
   return (
     <Container>
           <Section>
-            <Row>
               <Col>
                   <img src={Joseph} className="img-fluid round" alt="Joseph"/>
               </Col>
@@ -25,7 +24,6 @@ function About() {
                   A team player that can also work independently, constantly educating myself on new skills, and always ready for the challenge. Excited to start a new career in technology.
                 </Col>
               </Col>
-            </Row>
           </Section>
     </Container>
   );

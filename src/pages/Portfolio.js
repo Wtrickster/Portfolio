@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row, Container } from "../components/Grid";
+import { Col, Container } from "../components/Grid";
 import Project from '../components/Project';
 import Section from "../components/Section";
 
@@ -11,7 +11,6 @@ export default function Portfolio() {
   return (
     <Container>
       <Section>
-        <Row>
           <Col>
             {data.map((project, index) => {
               return (
@@ -27,7 +26,6 @@ export default function Portfolio() {
               )
             })}
           </Col>
-        </Row>
       </Section>
     </Container>
   );
