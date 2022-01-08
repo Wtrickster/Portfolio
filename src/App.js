@@ -12,10 +12,8 @@ function App() {
     <HashRouter>
       <Header/>
         <Main>
-          <Route exact path="">
-            <Redirect to={["/About" , "/React_Portfolio/"]} component={About}/>
-          </Route>
-          <Route exact path={["/About" , "/React_Portfolio/"]} component={About}/>
+        <Redirect exact from="/" to="/About"/>
+          <Route exact path="/About" component={About}/>
           <Route exact path="/portfolio" component={Portfolio}/>
           <Route exact path="/contact" component={Contact}/>
         </Main>
