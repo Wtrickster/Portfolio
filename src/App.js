@@ -10,14 +10,14 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <HashRouter>
-      <Header/>
-        <Main>
-        <Redirect exact from="/" to="/About"/>
-          <Route exact path="/About" component={About}/>
-          <Route exact path="/portfolio" component={Portfolio}/>
-          <Route exact path="/contact" component={Contact}/>
-        </Main>
-      <Footer/>
+        <Header />
+          <Main>
+            <Redirect exact from="/" to="/About" />
+            <Route exact path="/About" component={About} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/contact" component={Contact} />
+          </Main>
+        <Footer />
     </HashRouter>
   );
 }

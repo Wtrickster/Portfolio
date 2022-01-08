@@ -1,13 +1,13 @@
 // Imports
 import React from 'react';
-import { Col, Row } from "../Grid";
+import {Col, Row} from "../Grid";
 
 // Create and export project card component
 export default function Project(props) {
   return (
-    <Row>  
-      <Col>
-        <img src={props.thumbnail} alt="" className="round" />
+    <Row>
+      <Col settings= "text-center">
+        <img src={props.thumbnail} alt="" className="round project" />
       </Col>
       <Col>
           <h3>{props.title}</h3>
