@@ -34,7 +34,9 @@ function Nav() {
         <NavLink to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-item nav-link active" : "nav-item nav-link"}activeClassName="current" exact>
           <li className="underline">Projects</li>
         </NavLink>
-        <Contact/>
+        <NavLink>
+          <Contact/>
+        </NavLink>
     </NavUnlisted>
   );
 }
