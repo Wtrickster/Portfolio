@@ -10,7 +10,7 @@ header{
 section{
   margin: 10px;
   border-color:hsl(283, 47%, 18%);
-  border-width: 5px;
+  border-width: 10px;
   padding: 25px;
   border-style: inset;
   border-radius: 25px;
@@ -32,6 +32,19 @@ h3{
   border-bottom: 1px solid
 }
 .size{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+}
+button{
+  opacity: 0;
+  color: white;
+}
+.underline:hover{
+  text-decoration: underline;
+}
+.highlight:hover{
+  background-color:hsl(283, 47%, 18%)
+}
+Row{
+margin: 5px;
 }

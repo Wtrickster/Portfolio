@@ -33,4 +33,5 @@ export const data = [
     description: "The React Employee Directory app allows for business professionals to access non-sensitive employee data and filter through them. Employers can search for specific employees from the search field at the top of the app as well as sort alphabetically.",
     app: "https://acruhf.github.io/Timed-Quiz/",
     repo: "https://github.com/acruhf/Timed-Quiz"
-  }]
+  }
+]

@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components"
+// import Contact from "../Dropdown";
 
 const NavUnlisted = styled.ul`
 
@@ -28,13 +29,10 @@ function Nav() {
   return (
     <NavUnlisted>
         <NavLink to="/About" className={window.location.pathname === "/About" ? "nav-item nav-link active" : "nav-item nav-link"}activeClassName="current" exact>
-          <li>Home</li>
+          <li className="underline">Home</li>
         </NavLink>
         <NavLink to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-item nav-link active" : "nav-item nav-link"}activeClassName="current" exact>
-          <li>Portfolio</li>
-        </NavLink>
-        <NavLink to="/contact" className={window.location.pathname === "/contact" ? "nav-item nav-link active" : "nav-item nav-link"}activeClassName="current" exact>
-          <li>Contact</li>
+          <li className="underline">Portfolio</li>
         </NavLink>
     </NavUnlisted>
   );
