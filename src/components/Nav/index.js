@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components"
 import Contact from "../Dropdown";
-import Container from "../Grid"
+import { Container } from "../Grid"
 
 const NavUnlisted = styled.ul`
 
