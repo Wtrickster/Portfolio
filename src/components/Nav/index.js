@@ -35,7 +35,7 @@ function Nav() {
           <li className="underline">Projects</li>
         </NavLink>
         <NavLink>
-          <Contact/>
+          <li><Contact/></li>
         </NavLink>
     </NavUnlisted>
   );
