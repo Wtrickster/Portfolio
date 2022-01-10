@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components"
-// import Contact from "../Dropdown";
+import Contact from "../Dropdown";
 
 const NavUnlisted = styled.ul`
 
@@ -32,8 +32,9 @@ function Nav() {
           <li className="underline">Home</li>
         </NavLink>
         <NavLink to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-item nav-link active" : "nav-item nav-link"}activeClassName="current" exact>
-          <li className="underline">Portfolio</li>
+          <li className="underline">Projects</li>
         </NavLink>
+        <Contact/>
     </NavUnlisted>
   );
 }
