@@ -1,25 +1,19 @@
 import React from "react";
-import { Col, Row, Container } from "../Grid";
+import { Col, Container } from "../Grid";
+import Contact from "../Dropdown";
 
 function Footer() {
-  return (
+  return (  
     <footer>
-      <Container>
-      <Row settings="text-center">
-          <Col>
-            <span>Phone: (773)266-9667</span>
-          </Col>
-          <Col>
-            <span>Email: JSPenland97@gmail.com</span>
-          </Col>
-        </Row>
-        <Row settings="text-center">
-          <Col settings="text-center">
-            <span className="copyright">Copyright &copy; 2021 Wtrickster</span>
-          </Col>
-        </Row>
-      </Container>
-    </footer>
+        <Container>
+            <Col settings="text-right">
+              <Contact />
+            </Col>
+            <Col settings="text-center">
+              <span className="copyright">Copyright &copy; 2021 Wtrickster</span>
+            </Col>
+        </Container>
+      </footer>
   );
 }
 

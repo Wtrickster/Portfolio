@@ -3,15 +3,16 @@ import { Col, Row, Container } from "../Grid";
 import Title from "../Title";
 import Nav from "../Nav";
 
+
 function Header() {
   return (
     <header>
-      <Container>
-        <Row settings="align-items-center">
-          <Col settings="col-md-6">
+      <Container className="shadow-box-example z-depth-5">
+        <Row >
+          <Col>
             <Title />
           </Col>
-          <Col settings="col-md-6">
+          <Col>
             <Nav />
           </Col>
         </Row>

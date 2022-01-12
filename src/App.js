@@ -15,7 +15,7 @@ function App() {
             <Route exact path="/About" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
           </Main>
-        <Footer />
+        <Footer/>
     </HashRouter>
   );
 }

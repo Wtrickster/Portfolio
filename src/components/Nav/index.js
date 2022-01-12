@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components"
-// import Contact from "../Dropdown";
 
 const NavUnlisted = styled.ul`
 
@@ -13,7 +12,7 @@ const NavUnlisted = styled.ul`
 
   li {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     position: relative;
     list-style: none;
   }
@@ -27,6 +26,7 @@ const NavUnlisted = styled.ul`
 
 function Nav() {
   return (
+
     <NavUnlisted>
         <NavLink to="/About" className={window.location.pathname === "/About" ? "nav-item nav-link active" : "nav-item nav-link"}activeClassName="current" exact>
           <li className="underline">Home</li>
