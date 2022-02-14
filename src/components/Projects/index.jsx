@@ -33,7 +33,7 @@ function Projects() {
       <SwiperSlide>
         <Container settings="color">
           <Row>
-            <Col settings= "text d-flex align-items-center justify-content-center">
+            <Col settings= "">
               <Img source={BirthdayBot} />
             </Col>
             <Col>
